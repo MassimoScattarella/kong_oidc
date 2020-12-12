@@ -2,7 +2,6 @@ FROM kong:latest
 
 USER root
 
-ENV KONG_PLUGINS="bundled, oidc"
-RUN luarocks install kong-oidc --local
+RUN luarocks install kong-oidc
 
 USER kong
