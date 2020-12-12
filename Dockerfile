@@ -1,4 +1,4 @@
-FROM kong
+FROM kong:latest
 
 USER root
 
