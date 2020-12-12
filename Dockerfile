@@ -2,7 +2,6 @@ FROM kong:latest
 
 USER root
 
-#RUN luarocks install kong-oidc
-RUN luarocks install kong-oidc-forward-host
+RUN luarocks install kong-oidc
 
 USER kong
